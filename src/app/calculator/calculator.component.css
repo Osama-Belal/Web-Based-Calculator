@@ -1,0 +1,16 @@
+/*!* ------------------  calculator design ------------------*!*/
+.calc{
+  /*display: grid;*/
+  /*grid-template-rows: 35% 65%;*/
+  /*width:150%;*/
+  /*height: 90%;*/
+  /*background: #22252d;*/
+  border-radius: 30px;
+  overflow: hidden
+}
+
+.calc .result{
+  width: 100%;
+  background: #22252d;
+}
+

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.buttons{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70px 70px 70px auto;
+  grid-template-rows: 70px 70px 70px auto auto;
+  column-gap: 10px;
+  /*background: #292d36;*/
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.buttons button{
+  width: 100%;
+  background: transparent;
+  color: #CCC;
+  text-align: center;
+  font-family: Quicksand;
+  font-weight: 800;
+  font-size: 30px;
+  /*line-height: 70px;*/
+  box-sizing: border-box;
+  margin: 5px 3px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  /*box-shadow: 3px 3px 8px 0px #1b1b24, -2px -2px 9px 0px #323131*/
+  transition: all .15s ease-out;
+}
+
+.buttons button:hover{
+  background-color: #1ad78c;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.buttons button:active{
+  box-shadow: 0px 5px 10px rgba(46, 229, 157, 0.4);
+}
+
+.buttons .btn-op,
+.buttons .btn-er{
+  border-radius: 20px;
+  background: rgba(209, 192, 246, 0.15);
+}
+
+.buttons .btn-op:hover{
+  color: #FFFFFF;
+  background-color: rgba(236, 118, 87, 0.91);
+  box-shadow: 0px 10px 80px rgba(243, 146, 120, 0.8);
+}
+
+.buttons .btn-danger{
+  border-radius: 20px;
+  background-color: rgba(211, 10, 48, 0.22);
+}
+
+.buttons .btn-danger:hover{
+  color: #FFFFFF;
+  background: rgba(234, 15, 33, 0.89);
+  box-shadow: 0px 10px 48px rgba(238, 96, 131, 0.89);
+}
+
+.buttons .btn-er:hover{
+  background: goldenrod;
+}
+
+.buttons button.btn-success{
+  background: #00c946;
+  border-radius: 20px;
+}
+
+.buttons button sup{font-size: 15px;vertical-align: super;letter-spacing: 2px;}
+
+.buttons button svg{width:120%;height: 180%;padding-left: 20px;}
+
+.buttons button:nth-child(2),
+.buttons button:nth-child(3){
+  color: #fdf6f6;
+}
+.buttons button:nth-child(4){color: #e33c42;}
+.buttons button:nth-child(8),
+.buttons button:nth-child(12),
+.buttons button:nth-child(16),
+.buttons button:nth-child(20){
+  color: #2f2f2f;
+}

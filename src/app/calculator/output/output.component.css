@@ -1,0 +1,33 @@
+/* ------------------ Calculator design ------------------*/
+.txt-out {
+  padding: 10px 0 0 0;
+  color: #FFF;
+}
+
+.txt-out textarea{
+  resize: none;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  padding: 0 20px 0;
+  color: #FFF;
+  font-weight: 500;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.txt-out hr{
+  height: 0.05ex;
+  background: #ffffff;
+  width: 90%
+}
+
+.txt-out .input-group:nth-of-type(2) textarea{
+  font-size: 35px;
+  color: rgb(174 255 240);
+  font-weight: 900;
+  text-align: center !important;
+  max-height: 65px;
+}
